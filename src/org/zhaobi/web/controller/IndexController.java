@@ -426,7 +426,7 @@ public class IndexController {
 
 		List<Category> slist = this.cateService.showCategory(page);
 		model.addAttribute("showcatelist", slist);
-		System.out.println("WERWERWER");
+		System.out.println("PERSONAL LIST");
 		return "/personalList";
 	}
 }

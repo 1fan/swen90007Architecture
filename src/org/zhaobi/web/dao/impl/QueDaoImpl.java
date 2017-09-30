@@ -35,8 +35,9 @@ public class QueDaoImpl implements QuestionDao{
 	}
 
 	public List<Question> getPersonalList(int page, int userID){
-		String sql = "from Question where ";
-		return this.sessionFactory.getCurrentSession().createQuery(sql).setInteger(0,userID).setMaxResults(5)
+//		String sql = "from Question q where q.qid in (select questionID from List where userID="+userID+")";
+		String sql = "from Question q where q.qid in (select questionID from List where userID="+userID+")";
+		return this.sessionFactory.getCurrentSession().createQuery(sql).setMaxResults(5)
 				.setFirstResult((page-1)*5).list();
 	}
 
