@@ -64,10 +64,10 @@
         <div class="row">
             <div class="col-md-3">
                 <ul class="nav nav-pills nav-stacked">
-                    <li role="presentation" class="active"><a href="">Category</a></li>
+                    <li role="presentation" class="active"><a href="/homepage/personalList">Category</a></li>
                     <c:forEach items="${catelist}" var="i">
                         <%--<li role="presentation"><a href="<%=basePath%>homepage/searchques?cid=${i.cid}">${i.cate}</a></li>--%>
-                        <li role="presentation"><a href="<%=basePath%>homepage/showquestionlist?cid=${i.cid}">${i.cate}</a></li>
+                            <li role="presentation"><a href="<%=basePath%>homepage/showquestionlist?cid=${i.cid}">${i.cate}</a></li>
                     </c:forEach>
                     <li role="separator" class="divider"></li>
                 </ul>
@@ -106,9 +106,9 @@
 
 <nav style="text-align:center">
     <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page-1}">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page}">${page}</a></li>
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page+1}">Next</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page-1}">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page}">${page}</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page+1}">Next</a></li>
     </ul>
 </nav>
 

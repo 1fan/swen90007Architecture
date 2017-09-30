@@ -118,9 +118,9 @@
 
 <nav style="text-align:center">
     <ul class="pagination">
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page-1}">Previous</a></li>
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page}">${page}</a></li>
-        <li class="page-item"><a class="page-link" href="questionmanagement?page=${page+1}">Next</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page-1}">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page}">${page}</a></li>
+        <li class="page-item"><a class="page-link" href="personalList?page=${page+1}">Next</a></li>
     </ul>
 </nav>
 
