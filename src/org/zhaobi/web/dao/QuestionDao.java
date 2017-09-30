@@ -15,5 +15,6 @@ public interface QuestionDao {
 	public void deleteQues(int qid);
 	public void addQues(Question ques);
 	public List<Question> search(int cid, int page);
+	public List<Question> searchQuestionInList(int cid, int page, int userID);
 	public void addQuesToList(int qid, int uid);
 }

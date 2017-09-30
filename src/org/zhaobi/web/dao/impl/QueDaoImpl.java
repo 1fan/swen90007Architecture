@@ -66,4 +66,10 @@ public class QueDaoImpl implements QuestionDao{
 		String sql = "INSERT INTO list (userID, questionID) VALUE (?,?)";
 		sessionFactory.getCurrentSession().createSQLQuery(sql).setInteger(0,uid).setInteger(1, qid).executeUpdate();
 	}
+
+	public List<Question> searchQuestionInList(int cid, int page, int userID){
+		String sql = "from Question q where q.cid=? and q.qid in (select questionID from List where userID="+userID+")";
+		return this.sessionFactory.getCurrentSession().createQuery(sql).setInteger(0, cid).setMaxResults(5)
+				.setFirstResult((page-1)*5).list();
+	}
 }

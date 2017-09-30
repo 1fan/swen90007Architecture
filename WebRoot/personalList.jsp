@@ -67,7 +67,7 @@
                     <li role="presentation" class="active"><a href="/homepage/personalList">Category</a></li>
                     <c:forEach items="${catelist}" var="i">
                         <%--<li role="presentation"><a href="<%=basePath%>homepage/searchques?cid=${i.cid}">${i.cate}</a></li>--%>
-                            <li role="presentation"><a href="<%=basePath%>homepage/showquestionlist?cid=${i.cid}">${i.cate}</a></li>
+                            <li role="presentation"><a href="<%=basePath%>homepage/showPersonalListCate?cid=${i.cid}">${i.cate}</a></li>
                     </c:forEach>
                     <li role="separator" class="divider"></li>
                 </ul>
@@ -87,14 +87,16 @@
                     </thead>
                     <tbody>
                     <c:forEach items="${queslist}" var="i" varStatus="status">
-
                         <tr>
                             <td>${i.qid}</td>
                             <td>${i.content}</td>
                             <td>${i.answera}</td>
                             <td>${i.answerb}</td>
                             <td>${i.correct}</td>
-                            <td>${showcatelist[status.index].cate }</td>
+                            <%--<td>${i.cid}</td>--%>
+                            <td>${showcatelist[i.cid-1].cate}</td>
+                            <%--<td>${showcatelist[i.qid].cate}</td>--%>
+                            <%--<td>${showcatelist[status.index].cate }</td>--%>
                         </tr>
                     </c:forEach>
                     </tbody>

@@ -283,10 +283,12 @@ public class IndexController {
 		model.addAttribute("queslist", qlist);
 
 		List<Category> clist = this.cateService.getCategory();
+//		System.out.println(clist);
 		model.addAttribute("catelist", clist);
 
 		List<Category> slist = this.cateService.showCategory(page);
 		model.addAttribute("showcatelist", slist);
+//		System.out.println(slist);
 
 		return "/userHomepage";
 	}
@@ -409,7 +411,7 @@ public class IndexController {
 		return "/personalList";
 	}
 
-	@RequestMapping("personalList")
+	@RequestMapping("/personalList")
 	public String PersonalList(HttpServletRequest request, HttpServletResponse response,Model model){
 		String pg = request.getParameter("page");
 		int page = 1;
@@ -423,10 +425,54 @@ public class IndexController {
 
 		List<Category> clist = this.cateService.getCategory();
 		model.addAttribute("catelist", clist);
+		System.out.println("catelist"+clist.size());
+		for(int i=0;i<clist.size();i++){
+			System.out.println(clist.get(i).getCate());
+		}
 
-		List<Category> slist = this.cateService.showCategory(page);
+//		List<Category> slist = this.cateService.showCategory(page);
+		List<Category> slist = this.cateService.getCategory();
 		model.addAttribute("showcatelist", slist);
+		System.out.println("SHOWCATEGORYLIST:SLIST"+slist.size());
+		if(slist.size()>0){
+			for (int i=0;i<slist.size();i++){
+				System.out.println(slist.get(i).getCate());
+			}
+		}
 		System.out.println("PERSONAL LIST");
+		return "/personalList";
+	}
+
+	@RequestMapping("/showPersonalListCate")
+	public String showPersonalListCate(HttpServletRequest request, HttpServletResponse response,Model model){
+		String pg = request.getParameter("page");
+		int page = 1;
+		if (pg != null)
+			page = Integer.parseInt(pg);
+		model.addAttribute("page", new Integer(page));
+		String cid = request.getParameter("cid");
+
+		List<Question> qlist = this.queService.searchQuestionInList(Integer.parseInt(cid), page,getUserid(request));
+		model.addAttribute("queslist", qlist);
+
+		List<Category> clist = this.cateService.search(Integer.parseInt(cid));
+		model.addAttribute("catelist", clist);
+		System.out.println("CATEGORY:CATELIST"+clist.size());
+		if(clist.size()>0){
+			for (int i=0;i<clist.size();i++){
+				System.out.println(clist.get(i).getCate());
+			}
+		}
+
+//		List<Category> slist = this.cateService.showSearch(Integer.parseInt(cid), page);
+		List<Category> slist = this.cateService.getCategory();
+		model.addAttribute("showcatelist", slist);
+		System.out.println("SHOWCATEGORYLIST:SLIST"+slist.size());
+		if(slist.size()>0){
+			for (int i=0;i<slist.size();i++){
+				System.out.println(slist.get(i).getCate());
+			}
+		}
 		return "/personalList";
 	}
 }

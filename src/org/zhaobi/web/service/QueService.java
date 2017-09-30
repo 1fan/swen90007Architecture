@@ -14,4 +14,5 @@ public interface QueService {
 	public void addQues(Question ques);
 	public void addQuesToList(int qid, int uid);
 	public List<Question> search(int cid, int page);
+	public List<Question> searchQuestionInList(int cid, int page, int userID);
 }
