@@ -2,6 +2,9 @@ package org.zhaobi.web.controller;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 import javax.jws.WebParam;
@@ -56,7 +59,7 @@ public class IndexController {
 		model.addAttribute("cateCount", new Integer(this.cateService.countCate().intValue()));
 		return "/index";
 	}
-	
+
 	@RequestMapping("/adduser")
 	public String addUser(HttpServletRequest request, HttpServletResponse response){
 		String name = request.getParameter("username");
@@ -69,7 +72,7 @@ public class IndexController {
 		}else {
 			authority = true;
 		}
-		
+
 		Users user = new Users();
 		user.setName(name);
 		user.setPassword(password);
@@ -78,26 +81,26 @@ public class IndexController {
 		this.userService.addUser(user);
 		return "redirect:/homepage/usermanagement";
 	}
-/*	
-	@RequestMapping("/usermanagement")
-	public String showUsers(HttpServletRequest request, HttpServletResponse response,Model model){
-		List<Users> ulist = this.userService.getUser();
-		model.addAttribute("userlist", ulist);
-		return "/userManagement";
-	}
-*/	
+	/*
+        @RequestMapping("/usermanagement")
+        public String showUsers(HttpServletRequest request, HttpServletResponse response,Model model){
+            List<Users> ulist = this.userService.getUser();
+            model.addAttribute("userlist", ulist);
+            return "/userManagement";
+        }
+    */
 	@RequestMapping("/deleteuser")
 	public String deleteUser(HttpServletRequest request, HttpServletResponse response){
 		String id =request.getParameter("id");
-		this.userService.deleteUser(Integer.parseInt(id)); 
+		this.userService.deleteUser(Integer.parseInt(id));
 		return "redirect:/homepage/usermanagement";
 	}
-	
+
 	@RequestMapping("/modifyuser")
 	public String modifyUser(HttpServletRequest request, HttpServletResponse response){
-		
+
 		String id =request.getParameter("id");
-		
+
 		String name = request.getParameter("username");
 		String password = request.getParameter("password");
 		String email = request.getParameter("email");
@@ -109,85 +112,129 @@ public class IndexController {
 		}else {
 			authority = true;
 		}
-		
+
 		this.userService.update(Integer.parseInt(id), name, password, email, authority);
 		return "redirect:/homepage/usermanagement";
 
 	}
-	
+
 	@RequestMapping("/searchuser")
 	public String searchUsers(HttpServletRequest request, HttpServletResponse response,Model model){
 		String pg = request.getParameter("page");
 		int page = 1;
 		if (pg != null)
 			page = Integer.parseInt(pg);
-		
+
 		model.addAttribute("page", new Integer(page));
-		
+
 		String name = request.getParameter("sname");
 		List<Users> slist = this.userService.search(name, page);
 		model.addAttribute("userlist", slist);
 		return "/userManagement";
 	}
 
-
 	@RequestMapping("/usermanagement")
-	public String showUsers(HttpServletRequest request, HttpServletResponse response,Model model){	
+	public String showUsers(HttpServletRequest request, HttpServletResponse response,Model model){
 		String pg = request.getParameter("page");
 		int page = 1;
 		if (pg != null)
 			page = Integer.parseInt(pg);
-		
+
 		model.addAttribute("page", new Integer(page));
-		
+
 		List<Users> ulist = this.userService.getUser(page);
 		model.addAttribute("userlist", ulist);
 		return "/userManagement";
 	}
-	
+
 	@RequestMapping("/questionmanagement")
-	public String showQuestions(HttpServletRequest request, HttpServletResponse response,Model model){	
+	public String showQuestions(HttpServletRequest request, HttpServletResponse response,Model model){
+		String admin = null;
+		Cookie[] cookies = request.getCookies();
+		if (cookies != null) {
+			for (Cookie cookie : cookies) {
+				if (cookie.getName().equals("username")) {
+					String info =cookie.getValue();
+					String[] parts = info.split("\\|");
+					admin = parts[0];
+					model.addAttribute("admin", admin);
+				}
+			}
+		}
+
 		String pg = request.getParameter("page");
 		int page = 1;
 		if (pg != null)
 			page = Integer.parseInt(pg);
-		
+
 		model.addAttribute("page", new Integer(page));
-		
+
 		List<Question> qlist = this.queService.getQuestion(page);
 		model.addAttribute("queslist", qlist);
 
 		List<Category> clist = this.cateService.getCategory();
 		model.addAttribute("catelist", clist);
-		
+
 		List<Category> slist = this.cateService.showCategory(page);
 		model.addAttribute("showcatelist", slist);
-		
+
+		if(request.getParameter("error")!=null) {
+			String qid = request.getParameter("qid");
+			String modified_time = request.getParameter("modified_time");
+			String modified_by = request.getParameter("modified_by");
+			model.addAttribute("qid", qid);
+			model.addAttribute("error", true);
+			model.addAttribute("modified_time", modified_time);
+			model.addAttribute("modified_by", modified_by);
+		}
+
 		return "/questionManagement";
 	}
 
 	@RequestMapping("/modifyques")
-	public String modifyQues(HttpServletRequest request, HttpServletResponse response){
-		
-		String id =request.getParameter("qid");	
+	public String modifyQues(HttpServletRequest request, HttpServletResponse response, Model model){
+		String admin = null;
+		Cookie[] cookies = request.getCookies();
+
+		if (cookies != null) {
+			for (Cookie cookie : cookies) {
+				if (cookie.getName().equals("username")) {
+					String info =cookie.getValue();
+					String[] parts = info.split("\\|");
+					admin = parts[0];
+
+				}
+			}
+		}
+
+		String id = request.getParameter("qid");
 		String content = request.getParameter("content");
 		String a = request.getParameter("answera");
 		String b = request.getParameter("answerb");
 		String c = request.getParameter("correct");
 		String cid = request.getParameter("cid");
+		String version = request.getParameter("version");
+		String m_time = request.getParameter("modified_time");
+		String m_by = request.getParameter("modified_by");
 
-		this.queService.update(Integer.parseInt(id), content, a, b, c, Integer.parseInt(cid));
-		return "redirect:/homepage/questionmanagement";
+		if(this.queService.update(Integer.parseInt(id), content, a, b, c, Integer.parseInt(cid), Integer.parseInt(version), admin)) {
+			return "redirect:/homepage/questionmanagement";
+		}else {
+			model.addAttribute("error", version);
+			model.addAttribute("modified_time", m_time);
+			model.addAttribute("modified_by", m_by);
+			return "redirect:/homepage/questionmanagement?qid="+id;
+		}
 
 	}
-	
+
 	@RequestMapping("/deleteques")
 	public String deleteQues(HttpServletRequest request, HttpServletResponse response){
 		String qid =request.getParameter("qid");
 		this.queService.deleteQues(Integer.parseInt(qid));
 		return "redirect:/homepage/questionmanagement";
 	}
-	
+
 	@RequestMapping("/addquestion")
 	public String addQues(HttpServletRequest request, HttpServletResponse response){
 		String content = request.getParameter("content");
@@ -195,50 +242,69 @@ public class IndexController {
 		String b = request.getParameter("answerb");
 		String c = request.getParameter("correct");
 		String cid = request.getParameter("cid");
-		
+
 		Question ques = new Question();
 		ques.setContent(content);
 		ques.setAnswera(a);
 		ques.setAnswerb(b);
 		ques.setCorrect(c);
 		ques.setCid(Integer.parseInt(cid));
+		ques.setVersion(0);
+
+		DateFormat df = new SimpleDateFormat("dd/MM/yy HH:mm");
+		Date dateobj = new Date();
+		String modified_time = df.format(dateobj);
+		ques.setModified_time(modified_time);
+
+		String admin = null;
+		Cookie[] cookies = request.getCookies();
+		if (cookies != null) {
+			for (Cookie cookie : cookies) {
+				if (cookie.getName().equals("username")) {
+					String info =cookie.getValue();
+					String[] parts = info.split("\\|");
+					admin = parts[0];
+				}
+			}
+		}
+		ques.setModified_by(admin);
+
 		this.queService.addQues(ques);
 
 		return "redirect:/homepage/questionmanagement";
 	}
-	
+
 	@RequestMapping("/modifycate")
 	public String modifyCate(HttpServletRequest request, HttpServletResponse response){
-		
-		String cid =request.getParameter("cid");	
+
+		String cid =request.getParameter("cid");
 		String name = request.getParameter("cate");
 		this.cateService.update(Integer.parseInt(cid), name);
 		return "redirect:/homepage/questionmanagement";
 
 	}
-	
+
 	@RequestMapping("/searchques")
 	public String searchQues(HttpServletRequest request, HttpServletResponse response,Model model){
 		String pg = request.getParameter("page");
 		int page = 1;
 		if (pg != null)
 			page = Integer.parseInt(pg);
-		
+
 		model.addAttribute("page", new Integer(page));
 		String cid = request.getParameter("cid");
-		
+
 		List<Question> qlist = this.queService.search(Integer.parseInt(cid), page);
 		model.addAttribute("queslist", qlist);
 
 		List<Category> clist = this.cateService.search(Integer.parseInt(cid));
 		model.addAttribute("catelist", clist);
-		
+
 
 		List<Category> slist = this.cateService.showSearch(Integer.parseInt(cid), page);
 		model.addAttribute("showcatelist", slist);
 		return "/questionManagement";
 	}
-
 	@RequestMapping("/login")
 	public String login(HttpServletRequest request, HttpServletResponse response,Model model) throws IOException, ServletException {
 		String username = request.getParameter("username");
@@ -254,8 +320,6 @@ public class IndexController {
 		}else {
 			Users u = result.get(0);
 			System.out.println("SEARCH USERNAME FROM DB:"+u.getName()+"+"+u.getPassword()+"+"+u.getId()+"+"+u.isAuthority());
-//			Cookie c = new Cookie(u.getName(),u.getId()+"");
-
 			Cookie c = new Cookie("username",u.getName()+"|"+u.getId());
 			c.setMaxAge(60*60);
 			c.setPath("/");

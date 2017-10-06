@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0380b1eb-4618-4793-b2ad-627f8604f90a" name="Default" comment="" />
+    <list default="true" id="0380b1eb-4618-4793-b2ad-627f8604f90a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/lib/spring-security-config-4.0.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/lib/spring-security-core-4.0.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/lib/spring-security-web-4.0.2.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_2_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1.war" afterPath="$PROJECT_DIR$/target/wechat-0.0.1.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/controller/IndexController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/wechat_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/wechat_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/wechat.iml" afterPath="$PROJECT_DIR$/.idea/wechat.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/questionManagement.jsp" afterPath="$PROJECT_DIR$/WebRoot/questionManagement.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/welcome.jsp" afterPath="$PROJECT_DIR$/WebRoot/welcome.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/web.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,85 +75,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="437" column="45" lean-forward="true" selection-start-line="437" selection-start-column="45" selection-end-line="437" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-                <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-                <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-                <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-                <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-                <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-                <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-                <element signature="method#login#0;class#IndexController#0" expanded="false" />
-                <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-                <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-                <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-                <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-                <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CateService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/CateService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CateServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/CateServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-              <folding>
-                <element signature="e#947#948#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CateDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/CateDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="37" />
-              <folding>
-                <marker date="1504603444000" expanded="true" signature="737:766" ph="select count... category" />
-                <marker date="1504603444000" expanded="true" signature="1079:1123" ph="update categ... " />
-                <marker date="1504603444000" expanded="true" signature="1472:1542" ph="select C.* f... category" />
-                <marker date="1504603444000" expanded="true" signature="1767:1834" ph="select C.* f... category" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoryDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/CategoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personalList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebRoot/personalList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="96" column="66" lean-forward="true" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
-              <folding />
+      <file leaf-file-name="JAVA/org.zhaobi.web.service.impl.UserServiceImpl" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/org.zhaobi.web.service.impl.UserServiceImpl">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>org.zhaobi.web.service.impl.UserServiceImpl</OriginalElement>
+              <nodes>
+                <node x="0.0" y="358.0">org.zhaobi.web.service.impl.UserServiceImpl</node>
+                <node x="193.0" y="0.0">org.zhaobi.web.service.UserService</node>
+                <node x="0.0" y="122.0">org.springframework.stereotype.Service</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="org.zhaobi.web.service.impl.UserServiceImpl" target="org.springframework.stereotype.Service">
+                  <point x="-134.75" y="-167.5" />
+                  <point x="134.75" y="333.0" />
+                  <point x="86.5" y="333.0" />
+                  <point x="0.0" y="32.0" />
+                </edge>
+                <edge source="org.zhaobi.web.service.impl.UserServiceImpl" target="org.zhaobi.web.service.UserService">
+                  <point x="134.75" y="-167.5" />
+                  <point x="404.25" y="333.0" />
+                  <point x="452.5" y="333.0" />
+                  <point x="0.0" y="154.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="134.5" y="382.5" />
+              <SelectedNodes>
+                <node>org.zhaobi.web.service.impl.UserServiceImpl</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -139,6 +125,7 @@
       <list>
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -149,9 +136,11 @@
       <find>addquestion</find>
       <find>delete</find>
       <find>PersonalList</find>
+      <find>dispa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -163,25 +152,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="dbtable:/7862c1b7/23d8f3f7-ed2b-456e-b874-429d8265254b/qawebsystem.users" />
-        <option value="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" />
         <option value="$PROJECT_DIR$/WebRoot/questionManagement.jsp" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/controller/SetCookie.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/WebRoot/PersonalList.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/login.jsp" />
         <option value="$PROJECT_DIR$/WebRoot/index.jsp" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/entity/List.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/personalList.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/resourceconfig/spring-security.xml" />
+        <option value="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/WebRoot/userHomepage.jsp" />
-        <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/CateDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java" />
-        <option value="$PROJECT_DIR$/WebRoot/personalList.jsp" />
-        <option value="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" />
       </list>
     </option>
   </component>
@@ -240,7 +233,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,7 +336,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hibernate" />
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wechat" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -441,7 +456,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -454,6 +469,12 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="D:/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\untitled folder\untitled folder\wechat\WebRoot" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1166,16 +1187,22 @@
       <workItem from="1506560372876" duration="1675000" />
       <workItem from="1506659377143" duration="7670000" />
       <workItem from="1506735410340" duration="3874000" />
-      <workItem from="1506743277818" duration="20952000" />
+      <workItem from="1506743277818" duration="23881000" />
+      <workItem from="1506772338562" duration="1837000" />
+      <workItem from="1506934806620" duration="6765000" />
+      <workItem from="1507027161245" duration="5713000" />
+      <workItem from="1507077433703" duration="2768000" />
+      <workItem from="1507089871034" duration="8729000" />
+      <workItem from="1507164843192" duration="52000" />
+      <workItem from="1507273416276" duration="6624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112928000" />
+    <option name="totallyTimeSpent" value="148345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1198,11 +1225,11 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25141564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29784825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.50567263" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19656284" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16487648" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.50567263" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1214,6 +1241,44 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29784825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.50567263" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16487648" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.50567263" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25349087" sideWeight="0.50567263" order="9" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -1232,167 +1297,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebRoot/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/personalList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-            <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#login#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-            <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/userHomepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="70" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4809">
-          <caret line="248" column="28" lean-forward="false" selection-start-line="248" selection-start-column="28" selection-end-line="248" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-            <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#login#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-            <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/userHomepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-            <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#login#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-            <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/userManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2037">
-          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/questionManagement.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="154" lean-forward="false" selection-start-line="32" selection-start-column="146" selection-end-line="32" selection-end-column="154" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="52" lean-forward="false" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-            <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#login#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-            <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2079">
           <caret line="99" column="7" lean-forward="true" selection-start-line="99" selection-start-column="7" selection-end-line="99" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,26 +1312,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7862c1b7/23d8f3f7-ed2b-456e-b874-429d8265254b/qawebsystem.question">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7862c1b7/23d8f3f7-ed2b-456e-b874-429d8265254b/qawebsystem.category">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1431,43 +1339,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2416">
           <caret line="325" column="18" lean-forward="false" selection-start-line="325" selection-start-column="18" selection-end-line="325" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/7862c1b7/23d8f3f7-ed2b-456e-b874-429d8265254b/qawebsystem.users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/GetCookie.java" />
     <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/SetCookie.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-          <folding>
-            <element signature="e#798#799#0" expanded="false" />
-            <element signature="e#850#851#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="222" column="21" lean-forward="true" selection-start-line="222" selection-start-column="21" selection-end-line="222" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/META-INF/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1479,34 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="25" lean-forward="false" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <marker date="1506302743991" expanded="true" signature="640:681" ph="select realn... user" />
-            <marker date="1506302743991" expanded="true" signature="887:949" ph="SELECT * fro... users" />
-            <marker date="1506302743991" expanded="true" signature="887:980" ph="SELECT * fro... users" />
-            <marker date="1506302743991" expanded="true" signature="887:982" ph="SELECT * fro... users" />
-            <marker date="1506302743991" expanded="true" signature="887:995" ph="SELECT users... users" />
-            <marker date="1506302743991" expanded="true" signature="1618:1645" ph="delete from " />
-            <marker date="1506302743991" expanded="true" signature="1807:1854" ph="select count... users" />
-            <marker date="1506302743991" expanded="true" signature="2388:2465" ph="update users... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1514,23 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1542,49 +1385,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Category.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-          <folding>
-            <element signature="e#381#382#0" expanded="false" />
-            <element signature="e#397#398#0" expanded="false" />
-            <element signature="e#426#427#0" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#705#706#0" expanded="false" />
-            <element signature="e#724#725#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#477#478#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1600,31 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="61" column="49" lean-forward="true" selection-start-line="61" selection-start-column="49" selection-end-line="61" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resourceconfig/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201">
-          <caret line="13" column="60" lean-forward="true" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resourceconfig/spring-core.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1632,82 +1411,406 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="96" column="57" lean-forward="true" selection-start-line="96" selection-start-column="57" selection-end-line="96" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="69" column="77" lean-forward="false" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="77" />
-          <folding>
-            <marker date="1506756914783" expanded="true" signature="657:688" ph="select count... question" />
-            <marker date="1506756914783" expanded="true" signature="1490:1581" ph="update quest... " />
-            <marker date="1506756914783" expanded="true" signature="1821:1852" ph="delete from " />
-            <marker date="1506756914783" expanded="true" signature="2318:2414" ph="INSERT into question... " />
-            <marker date="1506756914783" expanded="true" signature="2616:2665" ph="INSERT INTO list... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="51" column="65" lean-forward="false" selection-start-line="51" selection-start-column="65" selection-end-line="51" selection-end-column="65" />
-          <folding>
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="16" column="78" lean-forward="false" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebRoot/userHomepage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="106" column="44" lean-forward="true" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebRoot/personalList.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="96" column="66" lean-forward="true" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+          <caret line="96" column="66" lean-forward="false" selection-start-line="96" selection-start-column="66" selection-end-line="96" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resourceconfig/spring-core.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resourceconfig/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="226" column="38" lean-forward="true" selection-start-line="226" selection-start-column="38" selection-end-line="226" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resourceconfig/spring-security.xml" />
+    <entry file="file://$PROJECT_DIR$/WebRoot/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MODULES/mdl-wechat">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-wechat</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-wechat</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="76.0" y="19.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/JavaProject/untitled folder/untitled folder/wechat/src/org/zhaobi/web">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/org/zhaobi/web</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="744.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web</OriginalElement>
+          <nodes>
+            <node x="" y="">org.zhaobi.web.entity</node>
+            <node x="" y="">org.zhaobi.web.service</node>
+            <node x="" y="">org.zhaobi.web.hibernate</node>
+            <node x="" y="">org.zhaobi.web.controller</node>
+            <node x="" y="">org.zhaobi.web.dao</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="156.0" y="142.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=org.zhaobi.web.controller.IndexController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=org.zhaobi.web.controller.IndexController</OriginalElement>
+          <nodes>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.apache.commons.dbcp.BasicDataSource;bean_name=datasource</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.orm.hibernate4.LocalSessionFactoryBean;bean_name=sessionFactory</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.orm.hibernate4.HibernateTransactionManager;bean_name=transactionManager</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.transaction.interceptor.TransactionProxyFactoryBean;bean_name=transactionBese</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter;tag=mvc:annotation-driven;offset=715</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_name=(org.zhaobi.web) [Component]</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.controller.IndexController;bean_name=indexController</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.dao.impl.UserDaoImpl;bean_name=userDao</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.dao.impl.QueDaoImpl;bean_name=quetionDao</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.dao.impl.CateDaoImpl;bean_name=categoryDao</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.service.impl.CateServiceImpl;bean_name=cateService</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.service.impl.UserServiceImpl;bean_name=userService</node>
+            <node x="" y="">module=wechat;bean_class=org.zhaobi.web.service.impl.QueServiceImpl;bean_name=queService</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=779</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=835</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=893</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;tag=mvc:resources;offset=951</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=viewResolver</node>
+            <node x="" y="">module=wechat;fileset=web application context;bean_class=org.springframework.web.multipart.commons.CommonsMultipartResolver;bean_name=multipartResolver</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.5653061224489796" x="591.0" y="480.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.service.UserService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.service.UserService</OriginalElement>
+          <nodes>
+            <node x="" y="">org.zhaobi.web.service.UserService</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-269.0" y="54.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/D:/JavaProject/untitled folder/untitled folder/wechat/src/org/zhaobi/web/service/impl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/org/zhaobi/web/service/impl</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="755.0" y="409.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/userHomepage.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="77" column="95" lean-forward="false" selection-start-line="77" selection-start-column="83" selection-end-line="77" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.controller.IndexController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.controller.IndexController</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">org.zhaobi.web.service.UserService</node>
+            <node x="" y="">org.zhaobi.web.dao.impl.QueDaoImpl</node>
+            <node x="" y="">org.zhaobi.web.entity.List</node>
+            <node x="" y="">org.zhaobi.web.controller.IndexController</node>
+            <node x="" y="">org.zhaobi.web.dao.impl.CateDaoImpl</node>
+            <node x="" y="">org.zhaobi.web.dao.CategoryDao</node>
+            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="" y="">org.zhaobi.web.entity.Users</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">org.zhaobi.web.service.impl.CateServiceImpl</node>
+            <node x="" y="">org.zhaobi.web.entity.Category</node>
+            <node x="" y="">org.zhaobi.web.service.impl.UserServiceImpl</node>
+            <node x="" y="">org.zhaobi.web.dao.QuestionDao</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">org.zhaobi.web.dao.UserDao</node>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+            <node x="" y="">org.zhaobi.web.entity.Question</node>
+            <node x="" y="">org.zhaobi.web.service.CateService</node>
+            <node x="" y="">org.zhaobi.web.service.QueService</node>
+            <node x="" y="">org.springframework.stereotype.Repository</node>
+            <node x="" y="">org.zhaobi.web.service.impl.QueServiceImpl</node>
+            <node x="" y="">org.zhaobi.web.dao.impl.UserDaoImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.668903803131991" x="1107.5" y="170.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.service.impl.CateServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.service.impl.CateServiceImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+            <node x="" y="">org.zhaobi.web.service.CateService</node>
+            <node x="" y="">org.zhaobi.web.service.impl.CateServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="239.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebRoot/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/CateDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1504603444000" expanded="true" signature="737:766" ph="select count... category" />
+            <marker date="1504603444000" expanded="true" signature="1079:1123" ph="update categ... " />
+            <marker date="1504603444000" expanded="true" signature="1472:1542" ph="select C.* f... category" />
+            <marker date="1504603444000" expanded="true" signature="1767:1834" ph="select C.* f... category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1253">
+          <caret line="77" column="43" lean-forward="true" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+          <folding>
+            <marker date="1506302743991" expanded="true" signature="640:681" ph="select realn... user" />
+            <marker date="1506302743991" expanded="true" signature="1618:1645" ph="delete from " />
+            <marker date="1506302743991" expanded="true" signature="1807:1854" ph="select count... users" />
+            <marker date="1506302743991" expanded="true" signature="2388:2465" ph="update users... " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/CategoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="168">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="51" column="27" lean-forward="false" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <marker date="1507282546664" expanded="true" signature="742:773" ph="select count... question" />
+            <marker date="1507282546664" expanded="true" signature="1602:1665" ph="select versi... Question" />
+            <marker date="1507282546664" expanded="true" signature="1942:2085" ph="update quest... " />
+            <marker date="1507282546664" expanded="true" signature="2417:2448" ph="delete from " />
+            <marker date="1507282546664" expanded="true" signature="3210:3259" ph="INSERT INTO list... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="77" column="1" lean-forward="false" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1256#1257#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1319#1320#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1473#1474#0" expanded="true" />
+            <element signature="e#1523#1524#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/entity/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/CateServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+        <state relative-caret-position="315">
+          <caret line="28" column="42" lean-forward="false" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <element signature="e#947#948#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1720,39 +1823,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/CateDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="3948">
+          <caret line="257" column="0" lean-forward="true" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
           <folding>
-            <marker date="1504603444000" expanded="true" signature="737:766" ph="select count... category" />
-            <marker date="1504603444000" expanded="true" signature="1079:1123" ph="update categ... " />
-            <marker date="1504603444000" expanded="true" signature="1472:1542" ph="select C.* f... category" />
-            <marker date="1504603444000" expanded="true" signature="1767:1834" ph="select C.* f... category" />
+            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
+            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
+            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
+            <element signature="method#searchUsers#0;class#IndexController#0" expanded="false" />
+            <element signature="method#login#0;class#IndexController#0" expanded="false" />
+            <element signature="method#userhomepage#0;class#IndexController#0" expanded="false" />
+            <element signature="method#showquestion#0;class#IndexController#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="437" column="45" lean-forward="true" selection-start-line="437" selection-start-column="45" selection-end-line="437" selection-end-column="45" />
+        <state relative-caret-position="189">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#receive#0;class#IndexController#0" expanded="false" />
-            <element signature="method#deleteUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyUser#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showUsers#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#modifyCate#0;class#IndexController#0" expanded="false" />
-            <element signature="method#searchQues#0;class#IndexController#0" expanded="false" />
-            <element signature="method#login#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUsername#0;class#IndexController#0" expanded="false" />
-            <element signature="method#getUserid#0;class#IndexController#0" expanded="false" />
-            <element signature="method#addquestiontoList#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showListHomepage#0;class#IndexController#0" expanded="false" />
-            <element signature="method#showquestionlist#0;class#IndexController#0" expanded="false" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.service.CateService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.service.CateService</OriginalElement>
+          <nodes>
+            <node x="0.0" y="68.0">org.springframework.stereotype.Service</node>
+            <node x="193.0" y="0.0">org.zhaobi.web.service.CateService</node>
+            <node x="47.0" y="250.0">org.zhaobi.web.service.impl.CateServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.zhaobi.web.service.impl.CateServiceImpl" target="org.zhaobi.web.service.CateService">
+              <point x="88.25" y="-114.0" />
+              <point x="311.75" y="225.0" />
+              <point x="360.5" y="225.0" />
+              <point x="0.0" y="100.0" />
+            </edge>
+            <edge source="org.zhaobi.web.service.impl.CateServiceImpl" target="org.springframework.stereotype.Service">
+              <point x="-88.25" y="-114.0" />
+              <point x="135.25" y="225.0" />
+              <point x="86.5" y="225.0" />
+              <point x="0.0" y="32.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.1" x="107.4545454545455" y="153.63636363636363" />
+          <SelectedNodes>
+            <node>org.zhaobi.web.service.CateService</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.service.impl.QueServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.service.impl.QueServiceImpl</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+            <node x="" y="">org.zhaobi.web.service.QueService</node>
+            <node x="" y="">org.zhaobi.web.service.impl.QueServiceImpl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="133.5" y="322.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/org.zhaobi.web.service.impl.UserServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>org.zhaobi.web.service.impl.UserServiceImpl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="358.0">org.zhaobi.web.service.impl.UserServiceImpl</node>
+            <node x="193.0" y="0.0">org.zhaobi.web.service.UserService</node>
+            <node x="0.0" y="122.0">org.springframework.stereotype.Service</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.zhaobi.web.service.impl.UserServiceImpl" target="org.springframework.stereotype.Service">
+              <point x="-134.75" y="-167.5" />
+              <point x="134.75" y="333.0" />
+              <point x="86.5" y="333.0" />
+              <point x="0.0" y="32.0" />
+            </edge>
+            <edge source="org.zhaobi.web.service.impl.UserServiceImpl" target="org.zhaobi.web.service.UserService">
+              <point x="134.75" y="-167.5" />
+              <point x="404.25" y="333.0" />
+              <point x="452.5" y="333.0" />
+              <point x="0.0" y="154.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="134.5" y="382.5" />
+          <SelectedNodes>
+            <node>org.zhaobi.web.service.impl.UserServiceImpl</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -31,9 +31,13 @@ public class QueServiceImpl implements QueService{
 	public List<Question> getPersonalList(int page, int userID){
 		return this.queDao.getPersonalList(page,userID);
 	}
-	
-	public void update(int id, String content, String a, String b, String c, int cid) {
-		this.queDao.update(id, content, a, b, c, cid);
+
+	public boolean update(int id, String content, String a, String b, String c, int cid, int v, String by) {
+		if(this.queDao.update(id, content, a, b, c, cid, v, by)) {
+			return true;
+		}else{
+			return false;
+		}
 	}
 	
 	public void deleteQues(int qid) {

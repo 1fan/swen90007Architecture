@@ -11,7 +11,8 @@ public interface QuestionDao {
 	public BigInteger countQue();
 	public List<Question> getQuestion(int page);
 	public List<Question> getPersonalList(int page, int userID);
-	public void update(int id, String content, String a, String b, String c, int cid);
+//	public void update(int id, String content, String a, String b, String c, int cid);
+	public boolean update(int id, String content, String a, String b, String c, int cid, int v, String by);
 	public void deleteQues(int qid);
 	public void addQues(Question ques);
 	public List<Question> search(int cid, int page);

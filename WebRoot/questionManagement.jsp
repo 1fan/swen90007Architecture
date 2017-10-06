@@ -19,10 +19,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<body>
 	<script type="text/javascript">
-
-	</script>function deleteQues(qid){
-	window.location.href="<%=basePath%>/homepage/deleteques?qid="+qid;
+	function deleteQues(qid){
+		window.location.href="<%=basePath%>/homepage/deleteques?qid="+qid;
 	}
+	</script>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12" style="margin-bottom: 90px;">
@@ -30,7 +30,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 								<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-							</button><b class="navbar-brand" style="color: white;">Admin Page  <small style="color: cornsilk; padding-left:10px;">Question Management</small></b>
+							</button>
+							<b class="navbar-brand" style="color: white;">Welcome 
+							<strong>${admin} </strong>
+							<small style="color: cornsilk; padding-left:10px;">Question Management</small>
+							</b>
 						</div>
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
@@ -51,10 +55,18 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 						  <li><button class="btn btn-default navbar-right" data-toggle="modal" data-target="#EditCategory">Show all</button></li>
 						</ul>
 					</div>
-						<button class="alert alert-info" data-toggle="modal" data-target="#AddQuesModal">
-							<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-								  Add a new question
-						</button>
+					<button class="alert alert-info" data-toggle="modal" data-target="#AddQuesModal">
+						<span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+								 Add a new question
+					</button>
+					<div class="col-md-8">
+						<c:if test="${error}">
+							<div class="alert alert-dismissable alert-danger">
+								<button type="button" class="close" data-dismiss="alert">x</button>
+								<strong>Sorry! Question ${qid} has just been modified at ${modified_time} by ${modified_by}, please try again later!</strong>
+							</div>
+						</c:if>
+					</div>
 					<div class="col-md-8">
 						<table class="table table-bordered table-hover">
 							<thead>
@@ -65,6 +77,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<th>Answer B</th>
 									<th>Correct Answer</th>
 									<th>Category</th>
+									<th>Version</th>
+									<th>Modified Time</th>
+									<th>Modified By</th>
 									<th>Modify</th>
 									<th>Delete</th>
 								</tr>
@@ -79,6 +94,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 									<td>${i.answerb}</td>
 									<td>${i.correct}</td>
 									<td>${showcatelist[status.index].cate }</td>
+									<td>${i.version}</td>
+									<td>${i.modified_time}</td>
+									<td>${i.modified_by}</td>
 									<td><button class="btn btn-primary" data-toggle="modal" data-target="#ModifyQuestionModal${i.qid}">Modify</button>
 									<div class="modal fade" id="ModifyQuestionModal${i.qid }" role="dialog">
 									<div class="modal-dialog" role="document">
@@ -120,7 +138,24 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 															<input type="text" class="form-control" id="inputEmail3" name="cid" value="${i.cid}">
 														</div>
 													</div>
-																														
+													<div class="form-group">
+														<label for="inputVersion" class="col-sm-2 control-label" >Version</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control" name="version" value="${i.version}" readonly>
+														</div>
+													</div>	
+													<div class="form-group">
+														<label for="inputTime" class="col-sm-2 control-label" >Modified Time</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control" name="modified_time" value="${i.modified_time}" readonly>
+														</div>
+													</div>		
+													<div class="form-group">
+														<label for="inputBy" class="col-sm-2 control-label" >Modified By</label>
+														<div class="col-sm-10">
+															<input type="text" class="form-control" name="modified_by" value="${i.modified_by}" readonly>
+														</div>
+													</div>																	
 													<div class="modal-footer">
 														<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 														<button type="submit" class="btn btn-primary">Submit</button>
