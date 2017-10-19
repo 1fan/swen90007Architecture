@@ -2,55 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0380b1eb-4618-4793-b2ad-627f8604f90a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/QuestionDao.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/QuestionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/impl/QueDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/impl/QueDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/dao/impl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/entity/List.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/entity/List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/service/QueService.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/service/QueService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/service/impl/QueServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/service/impl/QueServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1.war" afterPath="$PROJECT_DIR$/target/wechat-0.0.1.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/QuestionDao.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/QuestionDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/impl/QueDaoImpl.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/impl/QueDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/impl/UserDaoImpl.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/dao/impl/UserDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/entity/List.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/entity/List.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/service/QueService.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/service/QueService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/service/impl/QueServiceImpl.class" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/service/impl/QueServiceImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebRoot/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/index.jsp" afterPath="$PROJECT_DIR$/WebRoot/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/login.jsp" afterPath="$PROJECT_DIR$/WebRoot/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/personalList.jsp" afterPath="$PROJECT_DIR$/WebRoot/personalList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/questionManagement.jsp" afterPath="$PROJECT_DIR$/WebRoot/questionManagement.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/userHomepage.jsp" afterPath="$PROJECT_DIR$/WebRoot/userHomepage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebRoot/userManagement.jsp" afterPath="$PROJECT_DIR$/WebRoot/userManagement.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/dao/QuestionDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/QueDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/dao/impl/UserDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/entity/List.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/entity/List.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/entity/Question.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/QueService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/QueServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/zhaobi/web/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resourceconfig/spring-servlet.xml" afterPath="$PROJECT_DIR$/src/resourceconfig/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" afterPath="$PROJECT_DIR$/target/classes/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resourceconfig/spring-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/resourceconfig/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.zhaobi/wechat/pom.properties" afterPath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/org.zhaobi/wechat/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/org/zhaobi/web/hibernate/hibernate.cfg.test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/resourceconfig/spring-servlet.xml" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/classes/resourceconfig/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/index.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/login.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/personalList.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/personalList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/questionManagement.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/questionManagement.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/userHomepage.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/userHomepage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/wechat-0.0.1/userManagement.jsp" afterPath="$PROJECT_DIR$/target/wechat-0.0.1/userManagement.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +65,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="247" column="57" lean-forward="false" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="57" />
+            <state relative-caret-position="-155">
+              <caret line="215" column="17" lean-forward="true" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1205,15 +1158,15 @@
       <workItem from="1507521863561" duration="6723000" />
       <workItem from="1507550342316" duration="31000" />
       <workItem from="1508324998344" duration="1722000" />
-      <workItem from="1508372055510" duration="1238000" />
+      <workItem from="1508372055510" duration="1523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165006000" />
+    <option name="totallyTimeSpent" value="165291000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1908,8 +1861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="247" column="57" lean-forward="false" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="57" />
+        <state relative-caret-position="-155">
+          <caret line="215" column="17" lean-forward="true" selection-start-line="215" selection-start-column="17" selection-end-line="215" selection-end-column="17" />
           <folding />
         </state>
       </provider>
