@@ -29,12 +29,12 @@ public class UserServiceImpl implements UserService {
 		return this.userDao.getOne();
 		
 	}
-
+	
 	@Override
 	public List<Users> getOneUser(String name, String password) {
 		return this.userDao.getOneUser(name,password);
 	}
-
+	
 	@Override
 	public void addUser(Users user) {
 		this.userDao.addUser(user);

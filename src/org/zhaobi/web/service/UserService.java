@@ -17,5 +17,4 @@ public interface UserService {
 	public void update(int id, String n, String pd, String e, boolean au);
 	public List<Users> search(String name);
 	public List<Users> search(String name, int page);
-
 }

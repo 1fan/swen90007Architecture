@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Yifan
-  Date: 2017/9/21
-  Time: 21:25
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     String path = request.getContextPath();
@@ -36,13 +29,13 @@
                         <div class="row">
                             <div class="col-md-9">
                                 <h1>
-                                    <strong style="line-height: 80px;font-family: '微软雅黑';">Log In Page </strong>
+                                    <strong style="line-height: 80px;font-family: '';">Log In Page </strong>
                                 </h1>
                             </div>
                         </div>
                     </div>
-                    <form action="<%=basePath%>homepage/login" method="post" class="form-group" style="margin-top: 20px">
-                        <%--@declare id="inputname"--%><label for="inputName">
+                    <form action="<%=basePath%>homepage/login?time=first" method="post" class="form-group" style="margin-top: 20px">
+                        <label for="inputName">
                         UserName:
                         </label>
                         <input type="text" name="username" id="username" value="" class="form-control" required="required" />

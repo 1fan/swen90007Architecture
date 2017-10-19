@@ -10,17 +10,13 @@
 	http://www.springframework.org/schema/mvc
 	http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd">
 	
-	<!-- 注解扫描包 -->
 	<context:component-scan base-package="org.zhaobi.web" />
-	<!-- 开启注解 -->
 	<mvc:annotation-driven />
-	<!-- 静态资源访问（不拦截此目录下的东西的访问） -->  
     <mvc:resources location="/js/"  mapping="/js/**" />
     <mvc:resources location="/css/"  mapping="/css/**" />
     <mvc:resources location="/img/"  mapping="/img/**" />
     <mvc:resources location="/fonts/"  mapping="/fonts/**" />
     
-	<!-- 定义视图解析器 -->	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/"></property>
 		<property name="suffix" value=".jsp"></property>
@@ -34,9 +30,7 @@
 		</property>
 	</bean>
 	 -->
-	<!-- 配置图片上传 -->
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"> 
         <property name="maxUploadSize" value="9000000"/> 
     </bean> 
-    <!-- 配置结束 -->
 </beans>

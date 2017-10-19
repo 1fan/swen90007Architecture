@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Yifan
-  Date: 2017/9/22
-  Time: 22:42
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%
@@ -27,7 +20,7 @@
     value = getCookie('username');
     if(value == null || value ==""){
         alert("Not Log In");
-        window.location.href = "<%=basePath%>/homepage/login";
+        window.location.href = "<%=basePath%>/login.jsp";
     }else{
     }
     function getCookie(name){
@@ -40,8 +33,6 @@
         }
         return "";
     }
-
-
 </script>
 <div class="container">
     <div class="row">
@@ -54,7 +45,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <a class="nav-link" style="line-height: 50px; color: #C7DDEF;margin-right: 100px;" href="<%=basePath%>homepage/home">Home Page</a>
+                        <a class="nav-link" style="line-height: 50px; color: #C7DDEF;margin-right: 100px;" href="<%=basePath%>homepage/userHomepage">Home Page</a>
                     </ul>
                 </div>
             </nav>
@@ -93,10 +84,7 @@
                             <td>${i.answera}</td>
                             <td>${i.answerb}</td>
                             <td>${i.correct}</td>
-                            <%--<td>${i.cid}</td>--%>
-                            <td>${showcatelist[i.cid-1].cate}</td>
-                            <%--<td>${showcatelist[i.qid].cate}</td>--%>
-                            <%--<td>${showcatelist[status.index].cate }</td>--%>
+                            <td>${showcatelist[i.cid-1].cate}</td>                        
                         </tr>
                     </c:forEach>
                     </tbody>

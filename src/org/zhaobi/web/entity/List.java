@@ -4,9 +4,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-/**
- * Created by Yifan on 2017/9/30.
- */
 @Entity
 @Table(name="list")
 public class List {

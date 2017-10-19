@@ -19,9 +19,55 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<body>
 	<script type="text/javascript">
+        value = getCookie('username');
+        if(value == null || value ==""){
+            alert("Not Log In");
+            window.location.href = "<%=basePath%>/login.jsp";
+        }else{
+//            alert(value.split("|")[2]);
+            if(value.split("|")[2] != "true"){
+                alert("Not Authorized Operation");
+                window.location.href = "<%=basePath%>/login.jsp";
+            }
+        }
+
+        function getCookie(name){
+            var strCookie=document.cookie;
+            var arrCookie=strCookie.split("; ");
+            for(var i=0;i<arrCookie.length;i++){
+                var arr=arrCookie[i].split("=");
+                if(arr[0]==name)
+                    return arr[1];
+            }
+            return "";
+        }
 	function deleteQues(qid){
 		window.location.href="<%=basePath%>/homepage/deleteques?qid="+qid;
 	}
+	</script>
+	
+	<script type="text/javascript">
+    value = getCookie('username');
+    if(value == null || value ==""){
+        alert("Not Log In");
+        window.location.href = "<%=basePath%>/login.jsp";
+    }else{
+//        alert("welcome "+value.split('|')[0]);
+//        document.getElementById("001").innerText = "fuck you";
+    }
+
+    function getCookie(name){
+        var strCookie=document.cookie;
+        var arrCookie=strCookie.split("; ");
+        for(var i=0;i<arrCookie.length;i++){
+            var arr=arrCookie[i].split("=");
+            if(arr[0]==name)
+                return arr[1];
+        }
+        return "";
+    }
+
+
 	</script>
 		<div class="container">
 			<div class="row">

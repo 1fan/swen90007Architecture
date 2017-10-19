@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Yifan
-  Date: 2017/9/22
-  Time: 22:42
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%
@@ -30,12 +23,25 @@
         alert("Not Log In");
         window.location.href = "<%=basePath%>/login.jsp";
     }else{
-//        alert("welcome "+value.split('|')[0]);
-//        document.getElementById("001").innerText = "fuck you";
+//        username = value.split("|")[0];
+//        document.getElementById("001").innerHTML = "Welcome : "+username;
+//        alert(document.getElementById("welcome").value);
     }
 
     function addtoFavorite(qid){
-        window.location.href="<%=basePath%>/homepage/addquestiontoList?qid="+qid;
+        url_id = "<%=basePath%>/homepage/addquestiontoList?qid="+qid;
+        $.ajax({
+            type:"get",
+            url:url_id,
+            async:true,
+            success:function(info){
+                document.getElementById(qid).className = "btn btn-success disabled";
+                document.getElementById(qid).innerHTML = "added"
+            }
+        });
+//        document.getElementById(qid).className = "btn btn-primary disabled";
+//        document.getElementById(qid).removeAttribute("onclick");
+        <%--window.location.href="<%=basePath%>/homepage/addquestiontoList?qid="+qid;--%>
         <%--window.location.href="<%=basePath%>/homepage/addquestiontoList?qid="+qid;--%>
     }
     function getCookie(name){
@@ -61,8 +67,9 @@
                         </button><b class="navbar-brand" style="color: white;">User Homepage  <small style="color: cornsilk; padding-left:10px;">View Questions</small></b>
                     </div>
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav navbar-right">
-                            <a class="nav-link" style="line-height: 50px; color: #C7DDEF;margin-right: 100px;" href="<%=basePath%>homepage/home">Home Page</a>
+                        <%--<label id="001" style="line-height: 50px; color: #286090">initial text</label>--%>
+                        <ul class="nav navbar-nav navbar-right" >
+                            <a class="nav-link" style="line-height: 50px; color: #C7DDEF;margin-right: 100px;" id="welcome">Welcome</a>
                         </ul>
                     </div>
                 </nav>
@@ -106,7 +113,7 @@
                                 <td>${i.correct}</td>
                                 <td>${showcatelist[status.index].cate }</td>
                                 <%--<td><button class="btn btn-danger" onclick="deleteQues(${i.qid})">Delete</button></td>--%>
-                                <td><button class="btn btn-primary" onclick="addtoFavorite(${i.qid})">Add</button></td>
+                                <td><button id="${i.qid}" class="btn btn-primary" onclick="addtoFavorite(${i.qid})">Add</button></td>
                             </tr>
                         </c:forEach>
                         </tbody>
@@ -123,7 +130,17 @@
         <li class="page-item"><a class="page-link" href="userHomepage?page=${page+1}">Next</a></li>
     </ul>
 </nav>
-
+<script type="text/javascript">
+    value = getCookie('username');
+    if(value == null || value ==""){
+        alert("Not Log In");
+        window.location.href = "<%=basePath%>/login.jsp";
+    }else{
+        username = value.split("|")[0];
+        document.getElementById("welcome").innerHTML = "Welcome : "+username;
+//        alert(document.getElementById("welcome").value);
+    }
+</script>
 </body>
 
 </html>

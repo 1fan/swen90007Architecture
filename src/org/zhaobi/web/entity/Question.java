@@ -7,17 +7,17 @@ import javax.persistence.Table;
 @Entity
 @Table(name="question")
 public class Question {
-
+		
 	private int qid;
 	private String content;
 	private String answera;
 	private String answerb;
 	private String correct;
-	private int cid;
+	private int cid; 
 	private int version;
 	private String modified_time;
 	private String modified_by;
-
+	
 	@Id
 	@GeneratedValue
 	public int getQid() {
@@ -74,5 +74,5 @@ public class Question {
 	public void setModified_by(String modified_by) {
 		this.modified_by = modified_by;
 	}
-
+	
 }

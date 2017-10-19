@@ -19,6 +19,28 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
 	<body>
 	<script type="text/javascript">
+        value = getCookie('username');
+        if(value == null || value ==""){
+            alert("Not Log In");
+            window.location.href = "<%=basePath%>/login.jsp";
+        }else{
+//            alert(value.split("|")[2]);
+			if(value.split("|")[2] != "true"){
+			    alert("Not Authorized Operation");
+                window.location.href = "<%=basePath%>/login.jsp";
+			}
+        }
+
+        function getCookie(name){
+            var strCookie=document.cookie;
+            var arrCookie=strCookie.split("; ");
+            for(var i=0;i<arrCookie.length;i++){
+                var arr=arrCookie[i].split("=");
+                if(arr[0]==name)
+                    return arr[1];
+            }
+            return "";
+        }
 		function deleteUser(id){
 			window.location.href="<%=basePath%>/homepage/deleteuser?id="+id;
 		}

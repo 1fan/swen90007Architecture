@@ -9,5 +9,6 @@
 		<mapping class="org.zhaobi.web.entity.Question"/>
 		<mapping class="org.zhaobi.web.entity.Category"/>
 		<mapping class="org.zhaobi.web.entity.List"/>
+		
 	</session-factory>
 </hibernate-configuration>

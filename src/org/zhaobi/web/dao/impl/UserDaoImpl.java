@@ -31,18 +31,13 @@ public class UserDaoImpl implements UserDao {
 		
 		//return "Hello bi~~";
 	}
-
-//	public Boolean getOneUser(String name, String password){
-//		String sql = "SELECT users.authority, users.id from users WHERE users.name = '"+name+"' AND users.password= '"+password+"'";
-////		return (String)sessionFactory.getCurrentSession().createSQLQuery(sql).setString(1, name).setString(2, password).uniqueResult();
-//		return (Boolean) sessionFactory.getCurrentSession().createSQLQuery(sql).uniqueResult();
-//
-//	}
-
+	
+	@Override
 	public List<Users> getOneUser(String name, String password){
 		return this.sessionFactory.getCurrentSession().createQuery("from Users u where u.name=? and u.password=?").setString(0, name).setString(1,password).list();
 	}
-
+	
+	
 	@Override
 	public void addUser(Users user) {
 		sessionFactory.getCurrentSession().save(user);
